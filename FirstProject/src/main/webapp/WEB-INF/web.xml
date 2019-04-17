@@ -1,0 +1,27 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>ForgotPassword</servlet-name>
+  	<display-name>ForgotPassword</display-name>
+  	<description></description>
+  	<servlet-class>com.bl.controller.ForgotPassword</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ForgotPass</servlet-name>
+  	<display-name>ForgotPass</display-name>
+  	<description></description>
+  	<servlet-class>com.bl.controller.ForgotPassword</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>ForgotPassword</servlet-name>
+  	<url-pattern>/ForgotPassword</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ForgotPass</servlet-name>
+  	<url-pattern>/ForgotPass</url-pattern>
+  </servlet-mapping>
+
+</web-app>
