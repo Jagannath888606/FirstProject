@@ -52,7 +52,7 @@ h1 {
 	color: black
 }
 body {
-  background-image: lightblue;
+  background-color: lightblue;
 }
 </style>
 </html>
