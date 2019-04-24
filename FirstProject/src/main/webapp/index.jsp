@@ -1,28 +1,15 @@
 <html>
-<body>
-<h1 align="center">Home Page</h1>
-<table align="center">
-<tr>
-<td><h3 align="center">Login Success.....</h3></td>
-</tr>
-<tr>
- <td > <h3 align="center">
-  Hi Helllo, <%= request.getAttribute("username") %>
- </h3> </td>
- </tr>
- <tr>
-  <td><h3 align="center"> Your Home Page being under processing........</h3></td>
- </tr>
-</table>
+<body align="center">
+<h1 >--Welcome to Bridgelabz--</h1>
+<a href="LogIn.jsp"><input type="submit" value="Login page!!"></a>&nbsp;&nbsp;&nbsp;
+<a href="Registration.jsp"><input type="submit" value="New user Register here!!!!"></a>
 </body>
-<a href="LogIn.jsp">Back</a>
 <style type="text/css">
-h1 {
-	color: red
+a {
+	color: green
 }
-
-h3 {
-	color: blue
+h1 {
+	color: black
 }
 </style>
 </html>

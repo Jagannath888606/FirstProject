@@ -6,17 +6,31 @@
 <meta charset="UTF-8">
 <title>Home Page</title>
 </head>
-<body align="center">
-<h1 >--Welcome to Bridgelabz--</h1>
-<a href="LogIn.jsp"><input type="submit" value="Login page!!"></a>&nbsp;&nbsp;&nbsp;
-<a href="Registration.jsp"><input type="submit" value="New user Register here!!!!"></a>
+<body>
+<h1 align="center">Home Page</h1>
+<table align="center">
+<tr>
+<td><h3 align="center">Login Success.....</h3></td>
+</tr>
+<tr>
+ <td > <h3 align="center">
+  Hi Helllo, <%= request.getAttribute("username") %>
+ </h3> </td>
+ </tr>
+ <tr>
+  <td><h3 align="center"> Your Home Page being under processing........</h3></td>
+ </tr>
+</table>
 </body>
+<a href="LogIn.jsp">Back</a>
 <style type="text/css">
-a {
-	color: green
-}
 h1 {
-	color: black
+	color: red
+}
+
+h3 {
+	color: blue
 }
 </style>
+
 </html>

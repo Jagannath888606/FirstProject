@@ -29,7 +29,7 @@ public class LogIn extends HttpServlet
 				System.out.println("***Login is successfull!***");
 				request.setAttribute("username", username);
 				request.setAttribute("msg", "Login Success....");
-				request.getRequestDispatcher("index.jsp").include(request, response);
+				request.getRequestDispatcher("Home.jsp").include(request, response);
 			}
 			else 
 			{
