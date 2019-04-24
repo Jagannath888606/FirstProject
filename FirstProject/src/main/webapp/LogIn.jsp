@@ -7,8 +7,8 @@
 <title>Login Page</title>
 </head>
 <body align="center">
-	<div class="bg"></div>
 	<h1>LogIn Page</h1>
+	<div class="bg">
 	<form action="login" method="post">
 		<table align="center">
 			<tr>
@@ -37,7 +37,7 @@
 			
 			 <a href="ForgotPassword.jsp" align="center"><input type="submit"
 			value="ForgotPassword"></a>
-		
+			</div>
 </body>
 <style type="text/css">
 table {
@@ -51,22 +51,8 @@ sup {
 h1 {
 	color: black
 }
-body, html {
-  height: 100%;
-  margin: 0;
-}
-
-.bg {
-  /* The image used */
-  background-image: url("img_girl.jpg");
-
-  /* Full height */
-  height: 100%; 
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+body {
+  background-image: lightblue;
 }
 </style>
 </html>

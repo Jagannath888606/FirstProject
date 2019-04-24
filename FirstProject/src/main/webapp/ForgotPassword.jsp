@@ -7,7 +7,6 @@
 <title>Forgot Password</title>
 </head>
 <body align="center">
-	<div class="bg"></div>
 	<h1 align="center">Forget Password</h1>
 	<form method="post" action="forgotpassword">
 		<table align="center">
@@ -50,22 +49,8 @@ sup {
 h1 {
 	color: black
 }
-body, html {
-  height: 100%;
-  margin: 0;
-}
-
-.bg {
-  /* The image used */
-  background-image: url("img_girl.jpg");
-
-  /* Full height */
-  height: 100%; 
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+body {
+  background-color: lightgreen;
 }
 </style>
 
