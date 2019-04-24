@@ -1,7 +1,6 @@
 package com.bl.controller;
 
 import java.io.IOException;
-import java.io.PrintWriter;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -35,13 +34,9 @@ public class ForgotPassword extends HttpServlet {
 		{
 			BaseService loginService = new BaseServiceImpl();
 			boolean bool = loginService.forgot(userName, password);
-			PrintWriter pw =response.getWriter();
-			pw.print("<body>");
-			pw.print("<a href ='LogIn.jsp'>Back</a><br>");
-			pw.print("</body>");
 			if(bool)
 			{
-				pw.print("Password is successfully updated");
+				request.getRequestDispatcher("LogIn.jsp").include(request, response);
 				System.out.println("Password is successfully updated");
 				
 			}
