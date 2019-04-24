@@ -31,6 +31,9 @@ h1 {
 h3 {
 	color: blue
 }
+body {
+  background-color: skyblue;
+}
 </style>
 
 </html>

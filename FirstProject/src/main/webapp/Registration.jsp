@@ -91,5 +91,8 @@ sup {
 h1 {
 	color: black
 }
+body {
+  background-color: lightgreen;
+}
 </style>
 </html>

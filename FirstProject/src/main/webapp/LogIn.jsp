@@ -49,5 +49,8 @@ sup {
 h1 {
 	color: black
 }
+body {
+  background-color: lightblue;
+}
 </style>
 </html>
